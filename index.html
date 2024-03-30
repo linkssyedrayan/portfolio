@@ -1,0 +1,451 @@
+<!-- Created by AZIZ SOBIROV -->
+
+<!--Created By Aziz-->
+<!DOCTYPE html>
+<html ng-app>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+          <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <title>Portfolio</title>
+    </head>
+    <body>
+ <div id="portfolio">
+<div class="container">
+    <!-- ##### Navigation -->
+<nav class="navbar">
+<a href="#"><h1 align="right" id="pf">Portfolio</h1></a>
+<ul class="nav navbar-nav" id="Navigation">
+<li><a href="#">Home</a></li>
+<li>
+ <a href="#" id="contact">Contact</a> </li>
+<li>
+<a href="#" id="login">Login</a>
+</li>
+<li>
+<a href="#" id="about">About</a> </li>
+</ul>
+</nav>
+</div>
+ <div id="topic" >
+     <h4>Hey There!</h5>
+     <h1>I am SYED RAYAN</h1>
+     <h3>I am Web Designer & <br> Front-End Developer</h3>
+    <h2>
+<a id="aa" href="https://C/S"><i class="fa fa-facebook" ></i> </a>
+<a href="https://t" >
+<i class="fa fa-telegram"></i></a>
+<a id="aa" href="https://www.yA">
+<a id="aa" href="htt">
+<i class="fa fa-github"></i></a>
+    </h2>
+ </div>
+ 
+ <div id="follow">
+     <div id="box1">
+<a id="aa" href="https://www.p" > <h3><img src="https://sololearn.com/Images/favicon.ico" height="30px" width="30px"><br>Follow Me</h3> </a>      
+     </div>
+     <div id="box2">
+<h3>300+ <br>Followers</h3>       
+     </div>
+ </div>
+ 
+ <!--Nav-->
+ <!--Contact-->
+ <div id="contactt">
+ <h1 id="back" class="qq"><b>
+<i class="fa fa-angle-left"></i>
+ </b></h1> <br /><br />
+<h2><i class="fa fa-phone"></i> <br />
++91 8106471628 </h2>
+<h2><i class="fa fa-envelope"></i>
+</h2><h5>
+KGOLD3796@gmail.com </h5>
+<h2><i class="fa fa-telegram"></i>
+<br>SYED RAYAN</h2>
+<h2><i class="fa fa-facebook"></i>
+<br>SYED RAYN14</h2>
+<h2><i class="fa fa-github"></i>
+<br>C/S</h2>
+ </div>
+
+ <!--Login-->
+ <div id="loginn">
+ <h1 id="backk" class="qq"><b>
+<i class="fa fa-angle-left"></i>
+ </b></h1>
+<center>        <div id="sign1">
+<div id="ww"><h1>Sign Up</h1></div>
+<ul>
+    <li><label>Name:</label></li>
+    <li>
+<i class="fa fa-user" ></i>     
+<input type="text" name="name" ng-model="name" placeholder="Type your Name" required>
+    </li>
+ <li><label>Email:</label></li>
+  <li>
+<i class="fa fa-envelope" ></i>     
+<input type="email" name="email" ng-model="email" placeholder="Type your Email" required>
+    </li> 
+       <li><label>Password:</label></li>
+    <li>
+<i class="fa fa-lock" ></i>     
+<input type="password" name="password" placeholder="Type your Password" ng-model="password" maxlength="16" required>
+    </li>    
+ <li><label>Birth Day:</label></li>
+    <li>
+<i class="fa fa-calendar" ></i>     
+<input type="date" name="data" placeholder="Enter you Birth Day" required>
+    </li>     
+ <li><label>Gender:</label></li>
+    <li>
+<label>Male<input type="radio" name="gender" required></label>
+<label>FeMale
+<input type="radio" name="gender" value="FeMale" required></label>
+    </li>
+
+    <li>
+<input type="submit" id="sign2" name="submit" value="Sign Up">
+       
+    </li>
+    <li><h3>or Sign Up Using</h3></li>
+    <li>
+<h2 style="letter-spacing:10px;"><i class="fa fa-google"></i>        
+<i class="fa fa-facebook"></i>
+<i class="fa fa-github"></i></h2>
+    </li>
+</ul>                 
+        </div>
+        <div id="log1">
+<div id="ww"><h1>Login</h1></div>
+<ul>
+    <li><label>Name:</label></li>
+    <li>
+<i class="fa fa-user" ></i>     
+<input type="text" name="name" placeholder="Type your Name" value="{{name}}" required>
+    </li>
+ <li><label>Email:</label></li>
+  <li>
+<i class="fa fa-envelope" ></i>     
+<input type="email" name="email" value="{{email}}" placeholder="Type your Email" required>
+    </li>  
+   <li><label>Password:</label></li>
+    <li>
+<i class="fa fa-lock" ></i>     
+<input type="password" name="password" placeholder="Type your Password" value="{{password}}" maxlength="16" required>
+    </li>    
+    <li>
+<h4 id="res1" align="right">Forgot Password</h4>        
+    </li>
+    <li>
+<input type="submit" id="log2" name="submit" value="Login">       
+    </li>
+    <li><h3>or Login Using</h3></li>
+    <li>
+<h2 style="letter-spacing:10px;"><i class="fa fa-google"></i>        
+<i class="fa fa-facebook"></i>
+<i class="fa fa-github"></i></h2>
+    </li>
+</ul>                
+        </div>
+        <div id="res">
+<div id="ww"><h1 onclick="alert('Enter your Email we will send your password to your email.')">Forgot Password</h1>
+   </div>  
+  
+<ul> 
+<li><label>Email:</label></li>
+ <li>
+<i class="fa fa-envelope" ></i>     
+<input type="email" name="email"  placeholder="Type your Email." required>
+    </li> 
+   <li><label>Password:</label></li>
+  <li>
+<i class="fa fa-lock" ></i>     
+<input type="email" name="email" placeholder="Type your Password" required>
+    </li>  
+    <li>
+  <input type="submit" id="res2" name="submit" value="Login"> 
+    </li> 
+      </ul>         
+        </div>
+<div id="prof">
+<div id="ww"><h1>Profile</h1></div>
+<ul><li>
+ <h2><i class="fa fa-user"></i>
+    <br>{{name}}  </h2></li><li>
+ <h3><i class="fa fa-envelope"></i>
+      <br>{{email}}  </h3></li><li>
+ <h2><i class="fa fa-lock"></i>
+      <br>{{password}} </h2></li></ul>
+  
+</div>
+        </center>
+ </div>
+ <!--About-->
+ <div id="aboutt">
+ <h1 id="backkk" class="qq"><b>
+<i class="fa fa-angle-left"></i>
+</b></h1> 
+<center><div id="profile-image" >
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUnFiaUqNTjf26GdxjQwJjkUI0L3LwQN6NzsQpMw8PRXb8L6d217d6FP0cDVUbJu4WFIfdWXARM7ZoEWkGKeJSuidLYiI-e1ihAWFgBy5ik7Y4CtY2K3APZLzEKG6BS1KN60GitUzvo8kzBu1IUgRMWcbqalrkwQ5ujJCnjCmbDoPEA7fA3XzTdLNf62Y/s320/secret%20agent.png" alt="picture">
+</div></center>
+<h2><i class="fa fa-user"></i><br>
+ SYED RAYAN   </h2>
+<h2><i class="fa fa-map-marker"></i>
+<br>INDIA</h2>
+<h2><i class="fa fa-book"></i><br>
+Front-End Developer<br> &   <br>
+Web Designer</h2>
+ </div>
+ </div>    
+    </body>
+</html>
+<style>/* Created by AZIZ SOBIROV */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box ;
+}
+body {
+    display:flex;
+    min-height:100vh;
+    align-items:center;
+    justify-content:center;    background:linear-gradient(-55deg,#00bb99 45%,#fff 10%);
+}
+aa{
+    color:black;
+    text-decoration:none;
+}
+#topic{
+    height:auto ;
+    padding:20px;
+    width:auto ;
+    color:#fff;
+    background:rgba(0,0,0,.8);
+    box-shadow:
+    inset 0 10px 0 0 #00ddff,
+    inset 0 -10px 0 0 #00ddff
+    ;
+    z-index:2;
+}
+#topic i:hover{color:#00bb99;}
+#topic h2{
+    text-align:center ;
+    letter-spacing:10px;
+    color:#fff;
+}
+#topic h3,h4{
+    position:relative ;
+    left:-4%;
+    color:#00bb99;
+    font-variant:small-caps ;
+}
+.container {
+    position:fixed ;
+    top:0;
+}
+.container ul{
+    display:flex;
+    font-weight:bold;
+    font-size:20px;
+    font-variant:small-caps ;
+}
+
+.container li:hover{
+    box-shadow:0 -5px 0 0 black;
+}
+.container li:nth-child(1){
+    background:#dddddf;
+    box-shadow:0 -5px 0 0 black;
+}
+.qq{
+    position:absolute ;
+    margin:0;
+    padding:0;
+    top:10px;
+    left:10px;
+    width:40px;
+    background:#fff;
+    color:#000;
+    height:40px;
+    border-radius:50px;
+    text-align:center ;
+    box-sizing:border-box ;
+}
+/*Nav*/
+#contactt,#aboutt{color:white;}
+#contactt,#loginn,#aboutt{
+    position:absolute ;
+    padding:20px;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    text-align:center ;
+    display:none;
+    background:rgba(0,0,0,.8);
+}
+#profile-image{
+    height:200px;
+    width:200px;
+    border-radius:100%;
+    background-color:white;
+    overflow:hidden ;
+}
+#profile-image img{
+    position:relative  ;
+    top:0;
+    left:0;
+    height:220px;
+    width:220px;
+}
+#follow{
+    position:absolute ;
+    bottom:0;
+    left:0;
+    text-align:center ;
+    color:#fff;
+    width:100%;
+    padding:10px;
+    display:flex;
+}
+#follow #box1,#box2{
+    height:100px;
+    margin:10px;
+    width:150px;
+    padding:0;
+    box-shadow:
+    inset 10px 0 0 0 #00ddff,
+    inset -10px 0 0 0 #00ddff ;
+    background:rgba(0,0,0,.8);
+    
+}
+
+#sign1,#log1,#res,#prof{
+    position:absolute ;
+    top:50px;
+    left:30px;
+    height:550px;
+    width:300px;
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden ;
+}
+#loginn ul{
+    position:relative ;
+    top:25%;
+    margin:3px;
+    text-align:center ;
+    font-weight:bold;
+    list-style:none;    
+}
+input{
+    background:#fff;
+    border:3px solid white;
+    border-bottom-color:black;
+    outline:none;
+}
+#loginn i:hover{color:#00bb99;}
+input:focus::placeholder{
+    transition-duration:2s;
+    transform:translateX(-200px);
+}
+input[type="submit"]{
+    margin:5px;
+    height:30px;
+    width:180px;
+    border-radius:10px;
+    border:4px solid black;
+    background:#00bb99;
+    color:white;
+}
+#sign1{ z-index:1;}
+#log1{z-index:-1;}
+#res{z-index:-1;}
+#prof{z-index:-1;}
+#ww{
+    position:absolute  ;
+    top:-28%;
+    height:300px;
+    width:300px;
+    border-radius:100%;
+    background:#00bb99;
+    text-align:center ;
+}
+#ww h1{
+    position:relative  ;
+    top:55%;
+    color:#fff;
+    font-size:38px;
+    font-variant:small-caps ;
+}
+#prof </style>
+<script>// Created by AZIZ SOBIROV 
+
+             $(function() {
+ $("#contact").click(function() {
+ $("#contactt").slideToggle(700);
+ $("#contactt").css("display","block");
+    });
+});
+
+$(function() {
+ $("#login").click(function() {
+ $("#loginn").slideToggle(700);
+ $("#loginn").css("display","block");
+    });
+});
+
+$(function() {
+ $("#about").click(function() {
+ $("#aboutt").slideToggle(700);
+ $("#aboutt").css("display","block");
+    });
+});
+$(function() {
+ $("#back").click(function() {
+ $("#contactt").css("display","none");
+    });
+});
+$(function() {
+ $("#backkk").click(function() {
+ $("#aboutt").css("display","none");
+    });
+});
+$(function() {
+ $("#backk").click(function() {
+ $("#loginn").css("display","none");
+    });
+});
+
+
+
+$(function() {
+    $("#sign2").click(function() {
+    $("#log1").css("z-index","2");
+    });
+});
+
+$(function() {
+    $("#res1").click(function() {
+    $("#res").css("z-index","3");
+    });
+});
+
+$(function() {
+    $("#res2").click(function() {
+    $("#log1").css("z-index","4");
+    });
+});
+
+$(function() {
+    $("#log2").click(function() {
+    $("#prof").css("z-index","5");
+    });
+});
+</script>
